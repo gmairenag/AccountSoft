@@ -83,8 +83,8 @@ C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\bin\es\Microsoft.Ow
 C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\bin\es\Microsoft.Owin.Security.Google.resources.dll
 C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\obj\Debug\AccountSoft.csprojResolveAssemblyReference.cache
 C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\obj\Debug\AccountSoft.dll
 C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\obj\Debug\AccountSoft.pdb
 C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\obj\Debug\AccountSoft.Migrations.Inicial.resources
 C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\obj\Debug\AccountSoft.csproj.GenerateResource.Cache
+C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\obj\Debug\AccountSoft.csprojResolveAssemblyReference.cache

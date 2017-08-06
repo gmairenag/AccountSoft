@@ -88,3 +88,4 @@ C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\obj\Debug\AccountSo
 C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\obj\Debug\AccountSoft.Migrations.Inicial.resources
 C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\obj\Debug\AccountSoft.csproj.GenerateResource.Cache
 C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\obj\Debug\AccountSoft.csprojResolveAssemblyReference.cache
+C:\Users\Lab-IST\Desktop\ProyectoMVC\AccountSoft\AccountSoft\obj\Debug\AccountSoft.Migrations.Periodo.resources

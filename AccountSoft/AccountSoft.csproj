@@ -177,11 +177,17 @@
     <Compile Include="Migrations\201707301631277_Inicial.Designer.cs">
       <DependentUpon>201707301631277_Inicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708061823196_Periodo.cs" />
+    <Compile Include="Migrations\201708061823196_Periodo.Designer.cs">
+      <DependentUpon>201708061823196_Periodo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountSoftContext.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Entidad.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Periodo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -390,6 +396,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201707301631277_Inicial.resx">
       <DependentUpon>201707301631277_Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708061823196_Periodo.resx">
+      <DependentUpon>201708061823196_Periodo.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

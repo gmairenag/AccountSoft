@@ -168,9 +168,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AnioFiscalsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PeriodoController.cs" />
+    <Compile Include="Controllers\ValidationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -182,9 +184,14 @@
     <Compile Include="Migrations\201708061823196_Periodo.Designer.cs">
       <DependentUpon>201708061823196_Periodo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201708131815460_aniofiscal.cs" />
+    <Compile Include="Migrations\201708131815460_aniofiscal.Designer.cs">
+      <DependentUpon>201708131815460_aniofiscal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountSoftContext.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AnioFiscal.cs" />
     <Compile Include="Models\Entidad.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -387,9 +394,15 @@
     <Content Include="Views\Periodo\Details.cshtml" />
     <Content Include="Views\Periodo\Edit.cshtml" />
     <Content Include="Views\Periodo\Index.cshtml" />
+    <Content Include="Views\AnioFiscals\Create.cshtml" />
+    <Content Include="Views\AnioFiscals\Delete.cshtml" />
+    <Content Include="Views\AnioFiscals\Details.cshtml" />
+    <Content Include="Views\AnioFiscals\Edit.cshtml" />
+    <Content Include="Views\AnioFiscals\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Validation\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -405,6 +418,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708061823196_Periodo.resx">
       <DependentUpon>201708061823196_Periodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708131815460_aniofiscal.resx">
+      <DependentUpon>201708131815460_aniofiscal.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

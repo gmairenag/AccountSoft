@@ -9,7 +9,8 @@ namespace AccountSoft.Models
     public class AccountSoftContext: DbContext
     {
         public DbSet<Periodo> Periodos { get; set; }
-    
+        public DbSet<AnioFiscal> AnioFiscal { get; set; }
+
         public AccountSoftContext() 
             : base ("AccountSoftConectionString")
         {

@@ -9,7 +9,12 @@ namespace AccountSoft.Models
     public class Entidad
     {
         [Key]
-        public int Id { get; set; }
-        public virtual string Nombre { get; set; }
+        public int id { get; set; }
+        public virtual string descripcion { get; set; }
+        public string estado { get; set; }
+        public string usuario_reg { get; set; }
+        public string usuario_act { get; set; }
+        public DateTime fecha_reg { get; set; }
+        public DateTime fecha_act { get; set; }
     }
 }

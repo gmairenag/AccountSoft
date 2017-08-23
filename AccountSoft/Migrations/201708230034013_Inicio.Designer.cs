@@ -7,13 +7,13 @@ namespace AccountSoft.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Inicial : IMigrationMetadata
+    public sealed partial class Inicio : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Inicial));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Inicio));
         
         string IMigrationMetadata.Id
         {
-            get { return "201707301631277_Inicial"; }
+            get { return "201708230034013_Inicio"; }
         }
         
         string IMigrationMetadata.Source

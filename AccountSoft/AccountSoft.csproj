@@ -168,42 +168,67 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Anio_FiscalController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201708230034013_Inicio.cs" />
-    <Compile Include="Migrations\201708230034013_Inicio.Designer.cs">
-      <DependentUpon>201708230034013_Inicio.cs</DependentUpon>
+    <Compile Include="Migrations\201709041650145_Ini04092017.cs" />
+    <Compile Include="Migrations\201709041650145_Ini04092017.Designer.cs">
+      <DependentUpon>201709041650145_Ini04092017.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709051634484_050917_1.cs" />
+    <Compile Include="Migrations\201709051634484_050917_1.Designer.cs">
+      <DependentUpon>201709051634484_050917_1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountSoftContext.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Anio_Fiscal.cs" />
+    <Compile Include="Models\Cta_Cat.cs" />
+    <Compile Include="Models\Det_Partida.cs" />
+    <Compile Include="Models\Enc_Partida.cs" />
     <Compile Include="Models\Entidad.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Periodo.cs" />
+    <Compile Include="Models\Tipo_Partida.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\AgregarPeriodoVM.cs" />
+    <Compile Include="ViewModels\AnioFiscalDetalleVM.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="dist\css\sb-admin-2.css" />
+    <Content Include="dist\css\sb-admin-2.min.css" />
+    <Content Include="dist\js\sb-admin-2.js" />
+    <Content Include="dist\js\sb-admin-2.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="js\sb-admin-2.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="less\mixins.less" />
+    <Content Include="less\sb-admin-2.less" />
+    <Content Include="less\variables.less" />
+    <Content Include="bower.json" />
+    <Content Include="package.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.maskedinput.js" />
+    <Content Include="Scripts\jquery.maskedinput.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\ModalForm.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -377,6 +402,12 @@
     <Content Include="vendor\font-awesome\scss\_spinning.scss" />
     <Content Include="vendor\font-awesome\scss\_stacked.scss" />
     <Content Include="vendor\font-awesome\scss\_variables.scss" />
+    <Content Include="Views\Anio_Fiscal\Create.cshtml" />
+    <Content Include="Views\Anio_Fiscal\Delete.cshtml" />
+    <Content Include="Views\Anio_Fiscal\Details.cshtml" />
+    <Content Include="Views\Anio_Fiscal\Edit.cshtml" />
+    <Content Include="Views\Anio_Fiscal\Index.cshtml" />
+    <Content Include="Views\Anio_Fiscal\AgregarPeriodo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -391,8 +422,11 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201708230034013_Inicio.resx">
-      <DependentUpon>201708230034013_Inicio.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201709041650145_Ini04092017.resx">
+      <DependentUpon>201709041650145_Ini04092017.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709051634484_050917_1.resx">
+      <DependentUpon>201709051634484_050917_1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

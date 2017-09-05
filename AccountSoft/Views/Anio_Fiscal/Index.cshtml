@@ -1,0 +1,95 @@
+﻿@model IEnumerable<AccountSoft.Models.Anio_Fiscal>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Crear Nuevo", "Create", "Anio_Fiscal", new { }, htmlAttributes: new { @class = "btn btn-primary", data_modal_file = "" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_inicio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_fin)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.abierto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.estado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.usuario_reg)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.usuario_act)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_reg)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecha_act)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.descripcion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_inicio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_fin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.abierto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.estado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.usuario_reg)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.usuario_act)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_reg)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fecha_act)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_anio_fiscal }) |
+            @Html.ActionLink("Details", "Details", new { id = item.id_anio_fiscal }, htmlAttributes: new { data_modal = "" }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_anio_fiscal })
+        </td>
+    </tr>
+}
+
+</table>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1"
+     role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div id="myModalContent"></div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="~/Scripts/ModalForm.js"></script>
+}
